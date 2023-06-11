@@ -91,7 +91,7 @@ a {
 
 p {
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     color: #0f0f0f;
 }
 
@@ -106,6 +106,13 @@ p {
     background-color: #af599e;
 }
 
+span{
+    font-weight: 700;
+    color: red;
+}
+ i{
+    color:#f59622
+ }
 .space {
     margin-top: 300px;
 
