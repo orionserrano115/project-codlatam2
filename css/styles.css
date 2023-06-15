@@ -110,7 +110,7 @@ p {
     color:#fbfbfb;
     background-color: #af599e;
 }
-
+/*area de descripcion e icono de fontawsome*/
 span{
     font-weight: 700;
     color: red;
@@ -118,6 +118,8 @@ span{
  i{
     color:#f59622
  }
+
+ /*para separar el area de contacto*/
 .space {
     margin-top: 300px;
 
@@ -133,6 +135,11 @@ span{
     display: flex;
     justify-content: space-evenly;
     color: rgb(12, 12, 75);
+}
+/*para dar tamaños a los iconos*/
+.box-icons-0{
+    width: 100px;
+    height: 100px;
 }
 
 .box-icons{
@@ -158,15 +165,55 @@ footer {
     #desktop-version{
         display: flex;
         padding-top: 10rem;
-        min-height: auto;
-        
-        
     }
+/*dar tamaño a imagen*/
     .not-space{
         width: 300%;
     }
+
     #image{
         margin-top: 0;
+    }
+/*para alinear titulo,descripcion y boton */
+    .position{
+        text-align: start;
+    }
+
+    h1{
+        padding-left: 2rem;
+    }
+
+    .download{
+        margin-left: 2rem;
+    }
+/*para centrar el texto de hablemos*/
+    .new-definition{
+        width: 100%;
+        margin: auto;
+    }
+
+    .background{
+        width: 60%;
+        padding-left: ;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    /*centrar iconos*/
+    #icons{
+        display: flex;
+        justify-content:center;
+    }
+    
+    .box-icons{
+        margin-left: 130px;
+    }
+
+    /*quitar 100%vh*/
+    section{
+        min-height: 0vh;
+    }
+    .box-icons, .box-icons-0{
+        margin-bottom: 100px;
     }
 }
 /* Recomendaciones! 
