@@ -36,6 +36,7 @@ main {
 
 section, article {
     text-align: center;
+    
 }
 
 section {
@@ -73,7 +74,11 @@ ul {
     border-radius:50%;
     max-width: 360px;
     width: 100%;
-    margin-top:6rem;
+    margin-top:10rem;
+}
+
+.not-space{
+    min-height: 0vh;
 }
 
 .title {
@@ -118,6 +123,7 @@ span{
 
 }
 
+/*Fondo hablemos*/
 .background {
     background-color: rgba(175, 89, 158, 0.3);
     border-radius: 10px;
@@ -147,6 +153,22 @@ footer {
     justify-content: center;
 }
 
+/* desktop */
+@media(min-width:1200px){
+    #desktop-version{
+        display: flex;
+        padding-top: 10rem;
+        min-height: auto;
+        
+        
+    }
+    .not-space{
+        width: 300%;
+    }
+    #image{
+        margin-top: 0;
+    }
+}
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
 *    "estilos generales". Una buena idea sería comenzar por el <body> ;)
