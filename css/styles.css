@@ -33,7 +33,7 @@ main {
     margin: auto;
     /* min-width: 100px; */
 }
-
+/*centrar todo y hacer que ocupe el 100 % del view port*/
 section, article {
     text-align: center;
     
@@ -69,18 +69,19 @@ ul {
     width: 60px;
     height: 70px;
 }
-
+/*estilos a la imagen*/
 #image {
     border-radius:50%;
     max-width: 360px;
     width: 100%;
     margin-top:10rem;
 }
-
+ 
+/*quitar espacio imagen */
 .not-space{
     min-height: 0vh;
 }
-
+/*titulos y subtitulos*/
 .title {
     font-size: 36px;
 }
@@ -88,18 +89,21 @@ ul {
 .subtitle {
     font-size: 28px;
 }
+
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
     text-decoration: none;
     color: inherit;
 }
 
+/*definicion d espacio y color a los parrafos*/
 p {
     padding: 20px;
     margin: 10px;
     color: #0f0f0f;
 }
 
+/*boton de descarga*/
 .download {
     min-width: 50px;
     font-weight: 700;
@@ -110,6 +114,7 @@ p {
     color:#fbfbfb;
     background-color: #af599e;
 }
+
 /*area de descripcion e icono de fontawsome*/
 span{
     font-weight: 700;
@@ -136,6 +141,7 @@ span{
     justify-content: space-evenly;
     color: rgb(12, 12, 75);
 }
+
 /*para dar tamaños a los iconos*/
 .box-icons-0{
     width: 100px;
@@ -166,6 +172,7 @@ footer {
         display: flex;
         padding-top: 10rem;
     }
+
 /*dar tamaño a imagen*/
     .not-space{
         width: 300%;
@@ -174,6 +181,7 @@ footer {
     #image{
         margin-top: 0;
     }
+
 /*para alinear titulo,descripcion y boton */
     .position{
         text-align: start;
@@ -186,6 +194,7 @@ footer {
     .download{
         margin-left: 2rem;
     }
+
 /*para centrar el texto de hablemos*/
     .new-definition{
         width: 100%;
@@ -198,6 +207,7 @@ footer {
         margin: auto;
         margin-bottom: 60px;
     }
+
     /*centrar iconos*/
     #icons{
         display: flex;
@@ -216,6 +226,7 @@ footer {
         margin-bottom: 100px;
     }
 }
+
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
 *    "estilos generales". Una buena idea sería comenzar por el <body> ;)
