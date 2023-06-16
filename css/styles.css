@@ -66,8 +66,10 @@ ul {
 }
 /*correcion logo inline en html*/
 #logo {
-    width: 60px;
-    height: 70px;
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow:red  1px 1px;
 }
 /*estilos a la imagen*/
 #image {
@@ -203,7 +205,6 @@ footer {
 
     .background{
         width: 60%;
-        padding-left: ;
         margin: auto;
         margin-bottom: 60px;
     }
