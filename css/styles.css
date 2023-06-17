@@ -52,7 +52,9 @@ header {
     align-items: center;
     height: 90px;
     padding: 35px;
-    box-shadow: 0 0 30px 0 gray; 
+    box-shadow: 0 0 30px 0 gray;
+    top:0;
+    left: 0;
 }
 
 /* Para quitar los puntos a los items de listas */
@@ -60,9 +62,13 @@ ul {
     list-style: none;
 }
 
-.nav {
+/* .nav {
     display: inline;
     padding-right: 2rem;
+} */
+#menu{
+    display:flex;
+    
 }
 /*correcion logo inline en html*/
 #logo {
@@ -86,10 +92,12 @@ ul {
 /*titulos y subtitulos*/
 .title {
     font-size: 36px;
+    
 }
 
 .subtitle {
     font-size: 28px;
+    color:#fbfbfb
 }
 
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
@@ -105,6 +113,13 @@ p {
     color: #0f0f0f;
 }
 
+.p-description{
+    padding: 20px;
+    margin: 10px;
+    color:#fbfbfb;
+}
+
+
 /*boton de descarga*/
 .download {
     min-width: 50px;
@@ -114,7 +129,7 @@ p {
     padding: 15px;
     font-size: 20px;
     color:#fbfbfb;
-    background-color: #af599e;
+    background-color:#0f0f0f;
 }
 
 /*area de descripcion e icono de fontawsome*/
@@ -134,7 +149,7 @@ span{
 
 /*Fondo hablemos*/
 .background {
-    background-color: rgba(175, 89, 158, 0.3);
+    background-color:#0f0f0f;
     border-radius: 10px;
 }
 
@@ -173,7 +188,7 @@ footer {
     #desktop-version{
         display: flex;
         padding-top: 10rem;
-        margin:;
+
     }
 
 /*dar tamaño a imagen*/
@@ -213,7 +228,7 @@ footer {
     .background{
         width: 60%;
         margin: auto;
-        margin-bottom: 60px;
+        margin-bottom: 3rem;
     }
 
     /*centrar iconos*/
@@ -223,7 +238,7 @@ footer {
     }
     
     .box-icons{
-        margin-left: 130px;
+        margin-left: 9rem;
     }
 
     /*quitar 100%vh*/
@@ -233,6 +248,15 @@ footer {
     .box-icons, .box-icons-0{
         margin-bottom: 12rem;
     }
+}
+
+/*Clase para el evento */
+li.menu-items:hover,
+li.menu-items a.active,
+a.btn:hover{
+    background-color:#af599e;
+    transform: background-color 1s;
+    padding: 10px;
 }
 
 /* Recomendaciones! 

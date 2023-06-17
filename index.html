@@ -17,10 +17,10 @@
         <!-- No es recomendable aplicar CSS inline, es mejor que lo hagas en tu archivo de CSS -->
         <figure ><img id="logo" src="img/logo-personal-2.1.png" alt="logo"></figure>
         <nav>
-             <ul>
+             <ul id="menu">
                 <!-- los id deben ser únicos en cada elemento no los puedes repetir, para eso existen las clases -->
-                <li class="nav" ><a href="#about">Inicio</a></li>
-                <li class="nav" ><a href="#contact">Contacto</a></li>
+                <li  class="menu-items"  ><a class="active" href="#about" >Inicio</a></li>
+                <li  class="menu-items"  ><a href="#contact">Contacto</a></li>
              </ul>
         </nav>
     </header>
@@ -45,7 +45,7 @@
             <article>
                 <div class="background">
                     <h3 class="subtitle">Hablemos!</h3>
-                    <p class="new-definition">
+                    <p class="p-description" class="new-definition" >
                         Si estas interesado y requieres saber mas de mi, puedes llegar a contactarme de manera directa y personalizada; o si solo requieres mirar mas de mi trabajo puedes hacerlo solo con clickear algunos de las imagenes abajo. Mis numeros de Tlf. se encuentran en mi CV (haciendo click en el boton de arriba podras acceder a el) pero igual lograras encontrarlo en mi perfil <a href="https://www.linkedin.com/in/ori%C3%B3n-serrano-linarez-9a2b76230/" target="_blank"><span>Linkedin <i class="fa-solid fa-arrow-down"></i></span></a>  
                     </p>
                 </div>
@@ -64,6 +64,6 @@
         <!-- Debe ir dentro de una etiqueta -->
         <p>Presentacion personal</p>   
     </footer>
-    <script src="main/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
