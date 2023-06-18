@@ -62,12 +62,14 @@ ul {
     list-style: none;
 }
 
-/* .nav {
-    display: inline;
-    padding-right: 2rem;
-} */
+/*organizar y separar botones de navegacion*/
+
 #menu{
-    display:flex;
+    display: flex ;
+}
+
+.menu-items{
+    padding-left: 2rem;
     
 }
 /*correcion logo inline en html*/
@@ -255,8 +257,9 @@ li.menu-items:hover,
 li.menu-items a.active,
 a.btn:hover{
     background-color:#af599e;
-    transform: background-color 1s;
+    transform: background-color ;
     padding: 10px;
+   
 }
 
 /* Recomendaciones! 
