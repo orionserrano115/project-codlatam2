@@ -66,10 +66,13 @@ ul {
 
 #menu{
     display: flex ;
+    font-size: 1.5rem;
 }
 
 .menu-items{
     padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     
 }
 /*correcion logo inline en html*/
@@ -175,14 +178,16 @@ span{
     transition: 450ms;
     transform: scale(1.3)
 }
-
+/*footer*/
 footer {
     height: 90px;
-    color: #fbfbfb;
-    background-color:#af599e;
+    background-color:#0f0f0f;
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+.footer{
+    color:#fbfbfb
 }
 
 /* desktop */
@@ -251,15 +256,12 @@ footer {
         margin-bottom: 12rem;
     }
 }
-
 /*Clase para el evento */
-li.menu-items:hover,
-li.menu-items a.active,
-a.btn:hover{
-    background-color:#af599e;
-    transform: background-color ;
-    padding: 10px;
-   
+a.active
+{
+    background-color:#0f0f0f;
+    padding: 20px;
+    color:#fbfbfb;
 }
 
 /* Recomendaciones! 
