@@ -70,11 +70,9 @@ ul {
 }
 
 .menu-items{
-    padding-left: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    
+    margin-right: 1rem;
 }
+
 /*correcion logo inline en html*/
 #logo {
     width: 200px;
@@ -190,7 +188,7 @@ footer {
     color:#fbfbfb
 }
 
-/* desktop */
+/* medidas queries desktop */
 @media(min-width:1200px){
     #desktop-version{
         display: flex;
@@ -256,6 +254,7 @@ footer {
         margin-bottom: 12rem;
     }
 }
+
 /*Clase para el evento */
 a.active
 {
