@@ -73,6 +73,10 @@ ul {
     margin-right: 1rem;
 }
 
+.menu-items a{
+    padding: 20px;
+}
+
 /*correcion logo inline en html*/
 #logo {
     width: 200px;
@@ -188,6 +192,23 @@ footer {
     color:#fbfbfb
 }
 
+/*Clase para el evento */
+
+a.active
+{
+    background-color:#0f0f0f;
+    padding: 20px;
+    color:#fbfbfb;
+    
+}
+
+nav > ul > li:hover{
+    background-color:#0f0f0f;
+    color: #fbfbfb;
+    cursor:pointer;
+    
+}
+
 /* medidas queries desktop */
 @media(min-width:1200px){
     #desktop-version{
@@ -255,13 +276,8 @@ footer {
     }
 }
 
-/*Clase para el evento */
-a.active
-{
-    background-color:#0f0f0f;
-    padding: 20px;
-    color:#fbfbfb;
-}
+
+
 
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
