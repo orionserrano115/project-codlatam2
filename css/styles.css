@@ -42,6 +42,7 @@ section, article {
 
 section {
     min-height: 100vh;
+    padding: 2rem;
 }
 
 header {
@@ -52,7 +53,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    padding: 35px;
+    padding: 20px 15px;
     box-shadow: 0 0 30px 0 gray;
     top:0;
     left: 0;
@@ -68,15 +69,15 @@ ul {
 
 #menu{
     display: flex ;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 }
 
 .menu-items{
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .menu-items a{
-    padding: 20px;
+    padding: 10px;
 }
 
 /*dark mode */
@@ -163,7 +164,7 @@ body.dark a img{
 /*correcion logo inline en html*/
 #logo {
     width: 200px;
-    height: 80px;
+    height: 60px;
     border-radius: 5px;
     box-shadow:red  1px 1px;
 }
@@ -282,17 +283,23 @@ footer {
 a.active
 {
     background-color:#0f0f0f;
-    padding: 20px;
+    padding: 10px;
     color:#fbfbfb;
     
 }
 
-nav > ul > li:hover{
+a.active, li.menu-items a:hover{
+    background-color: #0f0f0f;
+    padding: 10px;
+    color: #fbfbfb;
+}
+
+/* nav > ul > li:hover{
     background-color:#0f0f0f;
     color: #fbfbfb;
     cursor:pointer;
     
-}
+} */
 
 /* medidas queries desktop */
 @media(min-width:1200px){
